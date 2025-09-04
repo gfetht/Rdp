@@ -5,8 +5,8 @@ on:
 
 jobs:
   setup-ngrok:
-    runs-on: windows-latest
-    timeout-minutes: 360  # Max allowed: 6 hours
+    runs-on: windows-2025
+    timeout-minutes: 350  # Max allowed: 6 hours
 
     steps:
       - name: Checkout repository
